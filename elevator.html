@@ -1,26 +1,30 @@
 <!Doctype html>
+<!-- Initial review of Elevator Exercise -->
 <html>
    <head>
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+      <link rel="stylesheet" href="elevator.css" media="screen" title="no title" charset="utf-8">
+      <title>Elevator Panel</title>
    </head>
    <body>
-      <div id="floorLocation">
-         1
-      </div>
-      <div>
-         <div id="elevatorUp" class="elevatorDirection">
-            <img file="upArrow/svg"></img>
-         </div
-         <div id="elevatorDown" class="elevatorDirection">
-            <img file="downArrow/svg"></img>
-         </div
-      </div>
-      <div id="elevatorSelect" class="elevatorButtonSection">
-         <button class="elevatorButton">1</button>
-         <button class="elevatorButton">2</button>
-         <button class="elevatorButton">3</button>
-         <button class="elevatorButton">4</button>
-      </div>
+      <main>
+         <section>
+            <div class="elevatorIndicator" id="floorLocation">
+               1
+            </div>
+            <div class="elevatorIndicator">
+               <div id="elevatorUp" class="elevatorDirection">^</div>
+               <div id="elevatorDown" class="elevatorDirection">^</div>
+            </div>
+         </section>
+         <nav id="elevatorSelect">
+            <ul>
+               <li> <button>1</button> </li>
+               <li> <button>2</button> </li>
+               <li> <button>3</button> </li>
+               <li> <button>4</button> </li>
+            </ul>
+         </nav>
+      </main>
    </body
-   <footer>
-   </footer>
 </html>
