@@ -1,0 +1,70 @@
+.clearFix:after {
+   clear: both;
+   content: "";
+   display: block;
+}
+
+main {
+   border: 1px solid black;
+   box-sizing: content-box;
+   margin: 20px auto 10px;
+   width: 800px;
+}
+
+/* Elevator location and direction Styling */
+
+.elevatorIndicator {
+   float: left;
+   margin: 10px 17%;
+   width: 100px;
+}
+
+#floorLocation {
+   border: 1px solid black;
+   font-size: 13.0em;
+   text-align: center;
+}
+
+.elevatorDirection {
+   border: 1px solid black;
+   font-size: 6.0em;
+   text-align: center;
+   color: white;
+}
+
+#elevatorUp {
+   background: green;
+}
+
+#elevatorDown {
+   background: red;
+   /* Safari */
+   -webkit-transform: rotate(-180deg);
+   /* Firefox */
+   -moz-transform: rotate(-180deg);
+   /* IE */
+   -ms-transform: rotate(-180deg);
+   /* Opera */
+   -o-transform: rotate(-180deg);
+   /* Internet Explorer */
+   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+/* Elevator Button Styling */
+
+ul {
+   list-style: none;
+   padding-left: 0;
+   margin: 0;
+}
+
+li {
+   float: left;
+   margin: 20px 20%;
+}
+button {
+   border: 1px solid black;
+   border-radius: 50%;
+   font-size: 1em;
+   padding: 15px 20px;
+}
